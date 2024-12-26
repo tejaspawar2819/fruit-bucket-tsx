@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",                         // Changed from es5 to es6 for modern JS features
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "jsx": "react-jsx"                     // This is the correct JSX option for React 17+
+  },
+  "include": ["src"]
+}
